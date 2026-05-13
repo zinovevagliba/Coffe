@@ -10,17 +10,17 @@ header{
     width: 100%;
     height: 100vh;
     background: url(../ddd.jpg);
-    background-size: 100%, 100%;
+    background-size: 103%;
     display: flex;
     justify-content: center;
-    align-items: center;
+  
     
     
 }
 .header_box{
 width: 75%;
 height: 700px;
-background: #ff0000;
+
 margin-top: 50px    ;
 
     
@@ -46,16 +46,60 @@ align-items: center;
     font-size: 18px;
     color: white;
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 .nav_poisk{
-    background: #FFFFFF;
+    background: ;
     width: 61px;
     height: 61px;
     border-radius: 30px;
 }
 .header_info{
 
+    width: 40%;
+    height: 400px;
+
+margin-top: 120px;
+font-family: Arial, Helvetica, sans-serif;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+justify-content: space-between;
+}
+.header_info_min {
+    width: 100%;
+    height: 300px;
+   
+    color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+}
+.header_info button{
+    width: 30%;
+    height: 45px;
+    background: #FFFFFF;
+    border-radius: 30px;
+     
+     font-weight: bold;
+     border: none;
+}
+.header_info h1{
+     font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-size: 52px;
+  font-style: normal;
+  
+}
+.header_info p{
+     
+  font-size: 10px;
+
+  
+}
+.header_info_min img{
+    height: 10px;
 }
 .nav_img{
     height: 25px;
